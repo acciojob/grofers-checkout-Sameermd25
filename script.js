@@ -16,6 +16,7 @@ const getSum = () => {
     const row=document.createElement("tr");
 	const data=document.createElement("td");
 	data.colSpan="2";
+	data.id = "ans"; 
 	data.innerHTML=`<strong>Total Price: ${sum} Rs</strong>`;
 	row.appendChild(data);
 	table.appendChild(row);
